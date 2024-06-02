@@ -5,7 +5,7 @@
 # trello_golang
 
 # Introduction
-Copyright 2020 The trello_golang Project Authors, GinSanaduki.
+Copyright 2024 The trello_golang Project Authors, GinSanaduki.
 All rights reserved.
 
 trello-cliがいつの間にかシンタックスエラーなどでまともに動かなくなっていたので、
