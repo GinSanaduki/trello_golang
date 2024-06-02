@@ -103,5 +103,5 @@ and handle it yourself.
 There's probably a method for archiving lists somewhere, probably...  
 
 # trello_Extract
-ENV_TRELLO_USERNAMEで設定されたメンバのボード内にあるリストとカードを探索し、引数のCARD_NAMEで設定されたカード名のカードをすべて削除します。
+ENV_TRELLO_USERNAMEで設定されたメンバのボード内にあるリストとカードを探索し、引数のCARD_NAMEで設定されたカード名のカードをすべて削除します。  
 It searches the lists and cards in the board of the member specified by ENV_TRELLO_USERNAME, and deletes all cards with the card name specified by the argument CARD_NAME.  
