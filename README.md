@@ -70,15 +70,15 @@ GOOS=linux GOARCH=amd64 go build -o trello_AddCard trello_AddCard.go
 
 # trello_Extract
 ENV_TRELLO_USERNAMEで設定されたメンバのボード内にあるリストとカードをすべて表示します。  
-引数：なし
+引数：なし  
 Displays all lists and cards in the board of the member specified by ENV_TRELLO_USERNAME.  
 Arguments: None  
 
 # trello_AddCard
-ENV_TRELLO_USERNAMEで設定されたメンバの、引数のBOARD_NAMEで設定されたボード内の、引数のLIST_NAMEで設定されたリストに、引数のCARD_NAMEで設定されたカード名のカードを追加します。
-カードのオプションは個人的にデフォルトで困らなかったので設定していません。使いたかったら
-https://pkg.go.dev/github.com/adlio/trello  
-を読んで自分で対応してください。
+ENV_TRELLO_USERNAMEで設定されたメンバの、引数のBOARD_NAMEで設定されたボード内の、引数のLIST_NAMEで設定されたリストに、引数のCARD_NAMEで設定されたカード名のカードを追加します。  
+カードのオプションは個人的にデフォルトで困らなかったので設定していません。使いたかったら  
+https://pkg.go.dev/github.com/adlio/trello   
+を読んで自分で対応してください。  
 
 Adds a card with the card name specified by the CARD_NAME argument to the list specified by the LIST_NAME argument, on the board specified by the BOARD_NAME argument, of the member specified by ENV_TRELLO_USERNAME.  
 I personally didn't have any problems with the default card options, so I didn't set them. If you want to use them, please read  
@@ -86,15 +86,15 @@ https://pkg.go.dev/github.com/adlio/trello
 and handle it yourself.  
 
 # trello_DeleteCard
-ENV_TRELLO_USERNAMEで設定されたメンバの、引数のBOARD_NAMEで設定されたボード内の、引数のLIST_NAMEで設定されたリストに、引数のCARD_NAMEで設定されたカード名のカードをすべて削除します。
+ENV_TRELLO_USERNAMEで設定されたメンバの、引数のBOARD_NAMEで設定されたボード内の、引数のLIST_NAMEで設定されたリストに、引数のCARD_NAMEで設定されたカード名のカードをすべて削除します。  
 This command deletes all cards with the card name specified by the CARD_NAME argument from the list specified by the LIST_NAME argument, in the board specified by the BOARD_NAME argument, of the member specified by ENV_TRELLO_USERNAME.  
 
 # trello_AddList
-ENV_TRELLO_USERNAMEで設定されたメンバの、引数のBOARD_NAMEで設定されたボード内の、引数のLIST_NAMEで設定されたリスト名のリストを追加します。
-リストのオプションは個人的にデフォルトで困らなかったので設定していません。使いたかったら
-https://pkg.go.dev/github.com/adlio/trello  
-を読んで自分で対応してください。
-リストのアーカイブのメソッドはきっとどこかにあるんでしょう、たぶん・・・。
+ENV_TRELLO_USERNAMEで設定されたメンバの、引数のBOARD_NAMEで設定されたボード内の、引数のLIST_NAMEで設定されたリスト名のリストを追加します。  
+リストのオプションは個人的にデフォルトで困らなかったので設定していません。使いたかったら  
+https://pkg.go.dev/github.com/adlio/trello    
+を読んで自分で対応してください。   
+リストのアーカイブのメソッドはきっとどこかにあるんでしょう、たぶん・・・。  
 
 Adds a list of the list name specified by the LIST_NAME argument, in the board specified by the BOARD_NAME argument, of the members specified by ENV_TRELLO_USERNAME.  
 I personally didn't have any problems with the default list options, so I didn't set them. If you want to use them, please read  
