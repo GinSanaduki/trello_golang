@@ -3,6 +3,7 @@
 </p>
 
 # trello_golang
+This is an access tool for trello using the adlio/trello library.  
 
 # Introduction
 Copyright 2024 The trello_golang Project Authors, GinSanaduki.
