@@ -10,7 +10,7 @@ Copyright 2024 The trello_golang Project Authors, GinSanaduki.
 All rights reserved.
 
 trello-cliがいつの間にかシンタックスエラーなどでまともに動かなくなっていたので、
-golangのapiで接続できるようにしたもの。
+golangのapiで接続できるようにしたもの。  
 Since trello-cli had stopped working properly due to syntax errors,  
 I made it possible to connect using the golang API.  
 The following librarys need to be installed.  
