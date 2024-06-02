@@ -15,10 +15,12 @@ The following librarys need to be installed.
 ```
 go get github.com/adlio/trello
 ```
+https://github.com/adlio/trello
 * caarlos0/env
 ```
 go get github.com/caarlos0/env/v10
 ```
+https://github.com/caarlos0/env
 
 # 環境変数
 以下の環境変数を設定する必要があります。  
